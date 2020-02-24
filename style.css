@@ -1,0 +1,228 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #f2f2f2;
+}
+.liv{
+    text-align: center;
+    background-color: #879e0f;
+    padding: 20px;
+    margin: 0;
+}
+.elu{
+    position: relative;
+    width: 100px;
+    float: right;
+}
+header{
+    background-image: url(img/bg.jpg);
+    color: white;
+    padding: 10px;
+    padding: 0;
+}
+.cup{
+    display: flex;
+    justify-content:space-around;
+}
+.lien ul{
+    display: flex;
+    justify-content: space-around;
+}
+.lien li{
+    list-style: none;
+}
+.lien a{
+    text-decoration: none;
+    color: white;
+}
+a:hover .lien a{
+    color: blue;
+}
+.liens ul{
+    display: flex;
+    justify-content: space-around;
+}
+.liens a{
+    text-align: center;
+    display: grid;
+    text-decoration: none;
+    color: white;
+}
+.liens li{
+    list-style: none;
+}
+.list>ul{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.list li{
+    list-style: none;
+    color: white;
+}
+article{
+    background-image: url(img/bg.jpg);
+    padding: 10px;
+}
+nav{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.device{
+    width: 100%;
+}
+
+.fiel li{
+    display: grid;
+    text-align: center;
+    list-style: none;
+}
+.fiel ul{
+    display: flex;
+    justify-content: space-around;
+}
+.im{
+    width: 100%;
+}
+.litea{
+    width: 100%;
+    background-color: white;
+}
+.pro{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+.imgp{
+    width: 100%;
+}
+.btn{
+    padding: 10px;
+    background-color: rgb(141, 109, 109);
+}
+.his{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-justify: distribute;
+}
+.lef{
+    float: left;
+    margin: 10px;
+}
+.rig{
+    float: right;
+    margin: 10px;
+}
+.lor{
+    background-color:#f2f2f2;
+    padding: 10px;
+}
+.lor ul{
+    display: flex;
+    justify-content: space-around;
+}
+.lor li{
+    text-align: center;
+    list-style: none;
+}
+.conc{
+    width: 60%;
+}
+.id{
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.art{
+    background-color: white;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.the{
+    float: left;
+}
+.art li{
+    list-style: none;
+    text-align: center;
+}
+.just{
+    text-align: justify;
+    margin: 10px;
+}
+.art ul{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+.titr{
+    margin-top: 15px;
+}
+.prod{
+    width: 100%;
+}
+.red{
+    color: red;
+}
+.vert{
+    color: green;
+}
+.sl{
+    width: 100%;
+}
+@media only screen and (max-width: 480px) {
+    .flexslider{
+        display: none;
+    }
+    .cup{
+        display: grid;
+        text-align: center;
+    }
+    .lien ul{
+        display: contents;
+        text-align: center;
+    }
+    .his{
+        display: contents;
+        
+    }
+    .lef{
+        width: 100%;
+    }
+    .rig{
+        width: 100%;
+    }
+    .just{
+        margin: -10px;
+    }
+    .lor ul{
+        display: contents;
+    }
+    .liens ul{
+        display: contents;
+    }
+  }
+@media only screen and (max-width: 718px) {
+    .flexslider{
+        display: none;
+    }
+    .his{
+        display: contents;
+        
+    }
+    .lef{
+        width: 70%;
+    }
+    .rig{
+        width: 70%;
+    }
+    .just{
+        margin: -10px;
+    }
+    .lor ul{
+        display: contents;
+    }
+    
+  }
